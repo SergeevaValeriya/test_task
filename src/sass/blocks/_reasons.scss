@@ -1,0 +1,65 @@
+.reasons {
+    margin: 0 auto;
+    margin-top: 500px;
+    &__info {
+        margin-left: 100px;
+        width: 890px;
+        height: 130px;
+        background-color: #f7f8fa;
+        padding-top: 15px;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 20px;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 27px;
+        line-height: 20px;
+    }
+    &__items {
+        margin-top: 75px;
+        display: flex;
+
+    }
+    &__rules {
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-right: 51px;
+        width: 390px;
+        &_title {
+            font-size: 27px;
+        }
+        &_text {
+            padding-left: 17px;
+            font-size: 20px;
+            
+            text-align: justify;
+        }
+    }
+    &__price {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 250px;
+        &_title {
+            font-size: 27px;
+            flex-wrap: nowrap;
+        }
+        &_text {
+            font-size: 19px;
+            margin-top: 10px;
+            span {
+                color: #39a739;
+                font-weight: 700;
+                font-size: 43px;
+            }
+        }
+    }
+} 

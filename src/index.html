@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БИБОСС</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="icons/logo.png" alt="" class="header__logo">
+        </div>
+    </header>
+    <section class="advert">
+        <div class="container">
+                <h2 class="advert__title">Поставь ссылку на БИБОСС</h2>
+                <h2 class="advert__subtitle">Заработай баллы!</h2>
+                <img src="img/computer.png" alt="" class="advert__img">
+                <a href="#" class="advert__text">Франшиза Dunkin' Donuts на БИБОСС</a>
+                <div class="advert__info">
+                    БИБОСС дает возможность получить бесплатные баллы - нужно лишь разместить на сайте компании одну из ссылок:
+                </div>
+                <ul class="advert__info">
+                    <li>Текстовая ссылка "Франшиза [Название] на БИБОСС"</li>
+                    <li>Текстовая ссылка "Наша франшиза на БИБОСС"</li>
+                    <li>Кнопка "Нравится франшиза" + счетчик популярности</li>
+
+                </ul>
+                
+        </div>
+    </section>
+    <section class="reasons">
+        <div class="container">
+            <div class="reasons__info">
+                <h2 class="reasons__title">Зачем нужны <a href="#">баллы</a>?</h2>
+                <h3 class="reasons__subtitle">Больше баллов - выше позиция в выдаче категории</h3>
+            </div>
+
+            <div class="reasons__items">
+                <div class="reasons__rules">
+                    <div class="reasons__rules_title">Правила размещения ссылки</div>
+                    <ul class="reasons__rules_text">
+                        <li>Ссылка должна быть индексируемой (без тегов <noindex> и <nofollow>)</li>
+                        <li>Ссылка должна быть читаемой, не скрытой от глаз посетителя сайта</li>
+                        <li>Ссылка должна быть размещена на странице сайта, посвященной франчайзингу</li>
+                        <li>При размещении ссылок на другие порталы о франчайзинге - баллы обнуляются.</li>
+
+                    </ul>
+                </div> 
+                <div class="reasons__price">
+                    <div class="reasons__price_title">Стоимость ссылки</div>
+                    <div class="reasons__price_text">
+                        
+                        <span>200 баллов</span><br>
+                        ТиЦ Вашего сайта от 10<br>
+                        <span>50 баллов</span><br>
+                        ТиЦ Вашего сайта от 0 до 10<br>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="request">
+        <div class="container">
+            <div class="request__title">Получить ссылку</div>
+            <form action="#" class="form">
+                <div class="field">
+                    <p><label>Ваше имя</label><input required placeholder="Представьтесь, пожалуйста" type="text"></p>
+                </div>
+                <div class="field">
+                    <p><label>Ваш телефон</label><input type="text" 
+                        class="phone-field"
+                        name="phone" data-rule-required="true" 
+                        data-rule-minlength="10" data-msg="Введите номер телефона" size="20" placeholder="Для начисления баллов и связи с Вами"></p>
+                </div>
+                <div class="field">
+                    <p><label>Название франшизы</label><input required placeholder="Например, Subway" type="text"></p>
+                    
+                </div>
+
+                <button data-modal="thanks" class="request__button" type="submit" onClick="ValidPhone();" >Получить ссылку</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                <span>Это еще не все...</span>Вы можете заработать дополнительные баллы, если разместите на своем сайте новость, интервью или статью БИБОСС о Вашей компании с активной ссылкой! 50 баллов за активную ссылку на новость!
+            </div>
+        </div>
+        <div class="footer__line">
+            <img src="icons/logo_mini.png" class="footer__logo">
+        </div>
+    </footer>
+
+   
+    </div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.5/jquery.inputmask.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
